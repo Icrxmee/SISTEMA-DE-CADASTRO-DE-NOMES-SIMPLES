@@ -3,12 +3,16 @@ from time import sleep
 def linha():
     print("~" * 40)
 
-def menuPrincipal():
+def menuEntrada():
 
     linha()
     print("Bem Vindo ao Nosso Sistema de Cadastro".center(40))
     linha()
     sleep(1)
+
+def menuPrincipal():
+
+    linha()
 
     print("====CADASTRO DE NOMES====".center(40))
 
