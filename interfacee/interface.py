@@ -11,10 +11,10 @@ def menuPrincipal():
     sleep(1)
 
     print("====CADASTRO DE NOMES====".center(40))
-    
+
     print("1 - Cadastrar Pessoa")
-    print("2 - Listar Nomes")
-    print("3 - Remover Nome")
+    print("2 - Remover Nome")
+    print("3 - Listar Nome")
     print("0 - Sair")
 
     a = input("O que você deseja acessar: ")
